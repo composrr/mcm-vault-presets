@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-05-06T14:00:00Z",
+  "bundles": [
+    {
+      "id": "youtube-export-presets",
+      "name": "YouTube Export Presets",
+      "description": "Optimized export settings for 1080p, 4K, and Shorts uploads to YouTube. Tuned for compression efficiency without sacrificing visible quality.",
+      "version": "1.0",
+      "category": "premiere",
+      "installType": "auto",
+      "presetType": "export",
+      "path": "bundles/youtube-export-presets",
+      "files": [
+        "MCM_YT_1080p.epr",
+        "MCM_YT_4K.epr",
+        "MCM_YT_Shorts.epr"
+      ]
+    },
+    {
+      "id": "client-delivery-luts",
+      "name": "Client Delivery LUTs",
+      "description": "Color grading LUTs matched to common client delivery specs. Rec.709 conversions for cinematic, broadcast, and web outputs.",
+      "version": "1.0",
+      "category": "premiere",
+      "installType": "auto",
+      "presetType": "lut",
+      "path": "bundles/client-delivery-luts",
+      "files": [
+        "MCM_Cinematic_Warm.cube",
+        "MCM_Broadcast_Standard.cube",
+        "MCM_Web_Vibrant.cube"
+      ]
+    },
+    {
+      "id": "podcast-audio-chain",
+      "name": "Podcast Audio Chain",
+      "description": "Voice processing chain — EQ, compression, de-esser, and limiter — calibrated for clear dialogue on episodic content.",
+      "version": "1.0",
+      "category": "premiere",
+      "installType": "auto",
+      "presetType": "audio",
+      "path": "bundles/podcast-audio-chain",
+      "files": [
+        "MCM_Voice_EQ.aup",
+        "MCM_Voice_Compressor.aup",
+        "MCM_Voice_DeEsser.aup",
+        "MCM_Voice_Limiter.aup"
+      ]
+    },
+    {
+      "id": "social-media-templates",
+      "name": "Social Media Templates",
+      "description": "Motion graphics templates for Instagram, TikTok, and YouTube Shorts. Title cards, lower thirds, end screens.",
+      "version": "1.0",
+      "category": "premiere",
+      "installType": "auto",
+      "presetType": "mogrt",
+      "path": "bundles/social-media-templates",
+      "files": [
+        "MCM_LowerThird_Clean.mogrt",
+        "MCM_TitleCard_Bold.mogrt",
+        "MCM_EndScreen_Subscribe.mogrt"
+      ]
+    },
+    {
+      "id": "resolve-cinematic-luts",
+      "name": "Resolve Cinematic LUTs",
+      "description": "Cinematic color grading LUTs for DaVinci Resolve. Includes warm, cool, bleach bypass, and teal/orange variations.",
+      "version": "1.0",
+      "category": "resolve",
+      "installType": "auto",
+      "presetType": "lut",
+      "path": "bundles/resolve-cinematic-luts",
+      "files": [
+        "MCM_Resolve_Warm_Cinematic.cube",
+        "MCM_Resolve_Cool_Modern.cube",
+        "MCM_Resolve_Bleach_Bypass.cube",
+        "MCM_Resolve_Teal_Orange.cube"
+      ]
+    },
+    {
+      "id": "signature-powergrades",
+      "name": "Signature PowerGrades",
+      "description": "Milestone Creative Media's signature color grades for DaVinci Resolve. Requires manual import via the Color page Gallery.",
+      "version": "1.0",
+      "category": "resolve",
+      "installType": "manual",
+      "presetType": "powergrade",
+      "path": "bundles/signature-powergrades",
+      "files": [
+        "MCM_Signature_Warm.drx",
+        "MCM_Signature_Cool.drx",
+        "MCM_Signature_Bleach.drx"
+      ],
+      "importInstructions": "Open Resolve, go to the Color page, open the Gallery panel, right-click in the PowerGrades album, and choose Import. Select all files in the synced folder."
+    },
+    {
+      "id": "fairlight-voice-presets",
+      "name": "Fairlight Voice Presets",
+      "description": "Audio processing presets for the Fairlight page in DaVinci Resolve. EQ and dynamics chains for dialogue.",
+      "version": "1.0",
+      "category": "resolve",
+      "installType": "auto",
+      "presetType": "fairlight",
+      "path": "bundles/fairlight-voice-presets",
+      "files": [
+        "MCM_Voice_EQ_Dialogue.preset",
+        "MCM_Voice_Dynamics_Podcast.preset"
+      ]
+    }
+  ]
+}
