@@ -16,7 +16,7 @@
       "name": "YouTube Export Presets",
       "path": "bundles/youtube-export-presets",
       "presetType": "export",
-      "version": "1.4"
+      "version": "1.5"
     },
     {
       "category": "premiere",
@@ -87,5 +87,5 @@
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-05-07T05:45:28.967714100+00:00"
+  "updatedAt": "2026-05-07T05:45:53.184594700+00:00"
 }
