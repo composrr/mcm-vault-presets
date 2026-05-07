@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-05-06T14:00:00Z",
+  "updatedAt": "2026-05-07T00:00:00Z",
   "bundles": [
     {
       "id": "youtube-export-presets",
       "name": "YouTube Export Presets",
-      "description": "Optimized export settings for 1080p, 4K, and Shorts uploads to YouTube. Tuned for compression efficiency without sacrificing visible quality.",
-      "version": "1.0",
+      "description": "Optimized export settings for 1080p, 4K, and Shorts uploads to YouTube. Tuned for compression efficiency without sacrificing visible quality. (Placeholder content — Premiere will not show these until real .epr files are published.)",
+      "version": "1.1",
       "category": "premiere",
       "installType": "auto",
       "presetType": "export",
