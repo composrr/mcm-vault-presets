@@ -1,21 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-05-07T00:00:00Z",
+  "updatedAt": "2026-05-07T01:00:00Z",
   "bundles": [
     {
       "id": "youtube-export-presets",
       "name": "YouTube Export Presets",
-      "description": "Optimized export settings for 1080p, 4K, and Shorts uploads to YouTube. Tuned for compression efficiency without sacrificing visible quality. (Placeholder content — Premiere will not show these until real .epr files are published.)",
-      "version": "1.1",
+      "description": "Empty placeholder bundle. Will hold real .epr export presets once published from the publisher view.",
+      "version": "1.2",
       "category": "premiere",
       "installType": "auto",
       "presetType": "export",
       "path": "bundles/youtube-export-presets",
-      "files": [
-        "MCM_YT_1080p.epr",
-        "MCM_YT_4K.epr",
-        "MCM_YT_Shorts.epr"
-      ]
+      "files": []
     },
     {
       "id": "client-delivery-luts",
@@ -35,33 +31,24 @@
     {
       "id": "podcast-audio-chain",
       "name": "Podcast Audio Chain",
-      "description": "Voice processing chain — EQ, compression, de-esser, and limiter — calibrated for clear dialogue on episodic content. Drops into Premiere's Effects Presets folder.",
-      "version": "1.1",
+      "description": "Empty placeholder bundle. Will hold real .prfpset effect presets once published.",
+      "version": "1.2",
       "category": "premiere",
       "installType": "auto",
       "presetType": "effect",
       "path": "bundles/podcast-audio-chain",
-      "files": [
-        "MCM_Voice_EQ.prfpset",
-        "MCM_Voice_Compressor.prfpset",
-        "MCM_Voice_DeEsser.prfpset",
-        "MCM_Voice_Limiter.prfpset"
-      ]
+      "files": []
     },
     {
       "id": "social-media-templates",
       "name": "Social Media Templates",
-      "description": "Motion graphics templates for Instagram, TikTok, and YouTube Shorts. Title cards, lower thirds, end screens.",
-      "version": "1.0",
+      "description": "Empty placeholder bundle. Will hold real .mogrt templates once published.",
+      "version": "1.1",
       "category": "premiere",
       "installType": "auto",
       "presetType": "mogrt",
       "path": "bundles/social-media-templates",
-      "files": [
-        "MCM_LowerThird_Clean.mogrt",
-        "MCM_TitleCard_Bold.mogrt",
-        "MCM_EndScreen_Subscribe.mogrt"
-      ]
+      "files": []
     },
     {
       "id": "resolve-cinematic-luts",
