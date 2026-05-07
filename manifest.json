@@ -4,17 +4,19 @@
       "category": "premiere",
       "description": "Empty placeholder bundle. Will hold real .epr export presets once published from the publisher view.",
       "files": [
+        "Animation.epr",
         "MSC - 4k.epr",
         "MSC - Clean - ProRes.epr",
         "MSC - HD.epr",
-        "MSC - Proxy.epr"
+        "MSC - Proxy.epr",
+        "MSC - Social.epr"
       ],
       "id": "youtube-export-presets",
       "installType": "auto",
       "name": "YouTube Export Presets",
       "path": "bundles/youtube-export-presets",
       "presetType": "export",
-      "version": "1.3"
+      "version": "1.4"
     },
     {
       "category": "premiere",
@@ -85,5 +87,5 @@
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-05-07T05:41:19.315195+00:00"
+  "updatedAt": "2026-05-07T05:45:28.967714100+00:00"
 }
