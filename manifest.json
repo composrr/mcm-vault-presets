@@ -35,17 +35,17 @@
     {
       "id": "podcast-audio-chain",
       "name": "Podcast Audio Chain",
-      "description": "Voice processing chain — EQ, compression, de-esser, and limiter — calibrated for clear dialogue on episodic content.",
-      "version": "1.0",
+      "description": "Voice processing chain — EQ, compression, de-esser, and limiter — calibrated for clear dialogue on episodic content. Drops into Premiere's Effects Presets folder.",
+      "version": "1.1",
       "category": "premiere",
       "installType": "auto",
-      "presetType": "audio",
+      "presetType": "effect",
       "path": "bundles/podcast-audio-chain",
       "files": [
-        "MCM_Voice_EQ.aup",
-        "MCM_Voice_Compressor.aup",
-        "MCM_Voice_DeEsser.aup",
-        "MCM_Voice_Limiter.aup"
+        "MCM_Voice_EQ.prfpset",
+        "MCM_Voice_Compressor.prfpset",
+        "MCM_Voice_DeEsser.prfpset",
+        "MCM_Voice_Limiter.prfpset"
       ]
     },
     {
