@@ -1,100 +1,89 @@
 {
-  "schemaVersion": 1,
-  "updatedAt": "2026-05-07T01:00:00Z",
   "bundles": [
     {
-      "id": "youtube-export-presets",
-      "name": "YouTube Export Presets",
+      "category": "premiere",
       "description": "Empty placeholder bundle. Will hold real .epr export presets once published from the publisher view.",
-      "version": "1.2",
-      "category": "premiere",
-      "installType": "auto",
-      "presetType": "export",
-      "path": "bundles/youtube-export-presets",
-      "files": []
-    },
-    {
-      "id": "client-delivery-luts",
-      "name": "Client Delivery LUTs",
-      "description": "Color grading LUTs matched to common client delivery specs. Rec.709 conversions for cinematic, broadcast, and web outputs.",
-      "version": "1.0",
-      "category": "premiere",
-      "installType": "auto",
-      "presetType": "lut",
-      "path": "bundles/client-delivery-luts",
       "files": [
-        "MCM_Cinematic_Warm.cube",
-        "MCM_Broadcast_Standard.cube",
-        "MCM_Web_Vibrant.cube"
-      ]
-    },
-    {
-      "id": "podcast-audio-chain",
-      "name": "Podcast Audio Chain",
-      "description": "Empty placeholder bundle. Will hold real .prfpset effect presets once published.",
-      "version": "1.2",
-      "category": "premiere",
-      "installType": "auto",
-      "presetType": "effect",
-      "path": "bundles/podcast-audio-chain",
-      "files": []
-    },
-    {
-      "id": "social-media-templates",
-      "name": "Social Media Templates",
-      "description": "Empty placeholder bundle. Will hold real .mogrt templates once published.",
-      "version": "1.1",
-      "category": "premiere",
-      "installType": "auto",
-      "presetType": "mogrt",
-      "path": "bundles/social-media-templates",
-      "files": []
-    },
-    {
-      "id": "resolve-cinematic-luts",
-      "name": "Resolve Cinematic LUTs",
-      "description": "Cinematic color grading LUTs for DaVinci Resolve. Includes warm, cool, bleach bypass, and teal/orange variations.",
-      "version": "1.0",
-      "category": "resolve",
-      "installType": "auto",
-      "presetType": "lut",
-      "path": "bundles/resolve-cinematic-luts",
-      "files": [
-        "MCM_Resolve_Warm_Cinematic.cube",
-        "MCM_Resolve_Cool_Modern.cube",
-        "MCM_Resolve_Bleach_Bypass.cube",
-        "MCM_Resolve_Teal_Orange.cube"
-      ]
-    },
-    {
-      "id": "signature-powergrades",
-      "name": "Signature PowerGrades",
-      "description": "Milestone Creative Media's signature color grades for DaVinci Resolve. Requires manual import via the Color page Gallery.",
-      "version": "1.0",
-      "category": "resolve",
-      "installType": "manual",
-      "presetType": "powergrade",
-      "path": "bundles/signature-powergrades",
-      "files": [
-        "MCM_Signature_Warm.drx",
-        "MCM_Signature_Cool.drx",
-        "MCM_Signature_Bleach.drx"
+        "MSC - 4k.epr",
+        "MSC - Clean - ProRes.epr",
+        "MSC - HD.epr",
+        "MSC - Proxy.epr"
       ],
-      "importInstructions": "Open Resolve, go to the Color page, open the Gallery panel, right-click in the PowerGrades album, and choose Import. Select all files in the synced folder."
+      "id": "youtube-export-presets",
+      "installType": "auto",
+      "name": "YouTube Export Presets",
+      "path": "bundles/youtube-export-presets",
+      "presetType": "export",
+      "version": "1.3"
     },
     {
-      "id": "fairlight-voice-presets",
-      "name": "Fairlight Voice Presets",
-      "description": "Audio processing presets for the Fairlight page in DaVinci Resolve. EQ and dynamics chains for dialogue.",
-      "version": "1.0",
-      "category": "resolve",
+      "category": "premiere",
+      "description": "Color grading LUTs matched to common client delivery specs. Rec.709 conversions for cinematic, broadcast, and web outputs.",
+      "files": [],
+      "id": "client-delivery-luts",
       "installType": "auto",
-      "presetType": "fairlight",
+      "name": "Client Delivery LUTs",
+      "path": "bundles/client-delivery-luts",
+      "presetType": "lut",
+      "version": "1.1"
+    },
+    {
+      "category": "premiere",
+      "description": "Empty placeholder bundle. Will hold real .prfpset effect presets once published.",
+      "files": [],
+      "id": "podcast-audio-chain",
+      "installType": "auto",
+      "name": "Podcast Audio Chain",
+      "path": "bundles/podcast-audio-chain",
+      "presetType": "effect",
+      "version": "1.2"
+    },
+    {
+      "category": "premiere",
+      "description": "Empty placeholder bundle. Will hold real .mogrt templates once published.",
+      "files": [],
+      "id": "social-media-templates",
+      "installType": "auto",
+      "name": "Social Media Templates",
+      "path": "bundles/social-media-templates",
+      "presetType": "mogrt",
+      "version": "1.1"
+    },
+    {
+      "category": "resolve",
+      "description": "Cinematic color grading LUTs for DaVinci Resolve. Includes warm, cool, bleach bypass, and teal/orange variations.",
+      "files": [],
+      "id": "resolve-cinematic-luts",
+      "installType": "auto",
+      "name": "Resolve Cinematic LUTs",
+      "path": "bundles/resolve-cinematic-luts",
+      "presetType": "lut",
+      "version": "1.1"
+    },
+    {
+      "category": "resolve",
+      "description": "Milestone Creative Media's signature color grades for DaVinci Resolve. Requires manual import via the Color page Gallery.",
+      "files": [],
+      "id": "signature-powergrades",
+      "importInstructions": "Open Resolve, go to the Color page, open the Gallery panel, right-click in the PowerGrades album, and choose Import. Select all files in the synced folder.",
+      "installType": "manual",
+      "name": "Signature PowerGrades",
+      "path": "bundles/signature-powergrades",
+      "presetType": "powergrade",
+      "version": "1.1"
+    },
+    {
+      "category": "resolve",
+      "description": "Audio processing presets for the Fairlight page in DaVinci Resolve. EQ and dynamics chains for dialogue.",
+      "files": [],
+      "id": "fairlight-voice-presets",
+      "installType": "auto",
+      "name": "Fairlight Voice Presets",
       "path": "bundles/fairlight-voice-presets",
-      "files": [
-        "MCM_Voice_EQ_Dialogue.preset",
-        "MCM_Voice_Dynamics_Podcast.preset"
-      ]
+      "presetType": "fairlight",
+      "version": "1.1"
     }
-  ]
+  ],
+  "schemaVersion": 1,
+  "updatedAt": "2026-05-07T05:41:19.315195+00:00"
 }
