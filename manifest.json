@@ -4,14 +4,15 @@
       "category": "premiere",
       "description": "Empty placeholder bundle. Will hold real .epr export presets once published from the publisher view.",
       "files": [
-        "-WAV.epr"
+        "-WAV.epr",
+        "4444444.epr"
       ],
       "id": "youtube-export-presets",
       "installType": "auto",
       "name": "YouTube Export Presets",
       "path": "bundles/youtube-export-presets",
       "presetType": "export",
-      "version": "1.6"
+      "version": "1.7"
     },
     {
       "category": "premiere",
@@ -82,5 +83,5 @@
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-05-07T12:28:51.093792900+00:00"
+  "updatedAt": "2026-05-08T04:19:05.932037200+00:00"
 }
