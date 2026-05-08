@@ -80,6 +80,17 @@
       "path": "bundles/fairlight-voice-presets",
       "presetType": "fairlight",
       "version": "1.1"
+    },
+    {
+      "category": "premiere",
+      "description": "Custom sequence presets for Premiere Pro (drop into the Custom folder; appear under New Sequence).",
+      "files": [],
+      "id": "premiere-sequence-presets",
+      "installType": "auto",
+      "name": "Sequence Presets",
+      "path": "bundles/premiere-sequence-presets",
+      "presetType": "sequence",
+      "version": "1.0"
     }
   ],
   "schemaVersion": 1,
