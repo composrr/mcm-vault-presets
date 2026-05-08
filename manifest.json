@@ -1,98 +1,102 @@
 {
-  "schemaVersion": 1,
-  "updatedAt": "2026-05-08T04:50:00Z",
   "bundles": [
     {
-      "id": "premiere-sequence-presets",
-      "name": "Premiere Pro Sequence Presets",
-      "description": "Custom sequence presets for Premiere Pro.",
-      "version": "1.0",
       "category": "premiere",
+      "description": "Custom sequence presets for Premiere Pro.",
+      "files": [],
+      "id": "premiere-sequence-presets",
       "installType": "auto",
-      "presetType": "sequence",
+      "name": "Premiere Pro Sequence Presets",
       "path": "bundles/premiere-sequence-presets",
-      "files": []
+      "presetType": "sequence",
+      "version": "1.0"
     },
     {
-      "id": "youtube-export-presets",
-      "name": "Premiere Pro Export Presets",
-      "description": "Export presets shared across the team.",
-      "version": "1.7",
       "category": "premiere",
-      "installType": "auto",
-      "presetType": "export",
-      "path": "bundles/youtube-export-presets",
+      "description": "Export presets shared across the team.",
       "files": [
         "-WAV.epr",
-        "4444444.epr"
-      ]
+        "4444444.epr",
+        "MSC - 1080 HD.epr",
+        "MSC - 4k - 16.9.epr",
+        "MSC - 4k - 2.1.epr",
+        "MSC - Audio Only.epr"
+      ],
+      "id": "youtube-export-presets",
+      "installType": "auto",
+      "name": "Premiere Pro Export Presets",
+      "path": "bundles/youtube-export-presets",
+      "presetType": "export",
+      "version": "1.8"
     },
     {
-      "id": "client-delivery-luts",
-      "name": "Premiere Pro LUTs",
+      "category": "premiere",
       "description": "Color grading LUTs for Premiere Pro.",
-      "version": "1.1",
-      "category": "premiere",
-      "installType": "auto",
-      "presetType": "lut",
-      "path": "bundles/client-delivery-luts",
-      "files": []
-    },
-    {
-      "id": "podcast-audio-chain",
-      "name": "Premiere Pro Audio Presets",
-      "description": "Audio effect presets for Premiere Pro.",
-      "version": "1.2",
-      "category": "premiere",
-      "installType": "auto",
-      "presetType": "effect",
-      "path": "bundles/podcast-audio-chain",
-      "files": []
-    },
-    {
-      "id": "social-media-templates",
-      "name": "Premiere Pro Motion Graphics Templates",
-      "description": "Motion graphics templates (.mogrt) for Premiere Pro.",
-      "version": "1.1",
-      "category": "premiere",
-      "installType": "auto",
-      "presetType": "mogrt",
-      "path": "bundles/social-media-templates",
-      "files": []
-    },
-    {
-      "id": "resolve-cinematic-luts",
-      "name": "DaVinci Resolve LUTs",
-      "description": "Color grading LUTs for DaVinci Resolve.",
-      "version": "1.1",
-      "category": "resolve",
-      "installType": "auto",
-      "presetType": "lut",
-      "path": "bundles/resolve-cinematic-luts",
-      "files": []
-    },
-    {
-      "id": "signature-powergrades",
-      "name": "DaVinci Resolve PowerGrades",
-      "description": "PowerGrades for DaVinci Resolve. Requires manual import via the Color page Gallery.",
-      "version": "1.1",
-      "category": "resolve",
-      "installType": "manual",
-      "presetType": "powergrade",
-      "path": "bundles/signature-powergrades",
       "files": [],
-      "importInstructions": "Open Resolve, go to the Color page, open the Gallery panel, right-click in the PowerGrades album, and choose Import. Select all files in the synced folder."
+      "id": "client-delivery-luts",
+      "installType": "auto",
+      "name": "Premiere Pro LUTs",
+      "path": "bundles/client-delivery-luts",
+      "presetType": "lut",
+      "version": "1.1"
     },
     {
-      "id": "fairlight-voice-presets",
-      "name": "DaVinci Resolve Fairlight Presets",
-      "description": "Audio processing presets for the Fairlight page in DaVinci Resolve.",
-      "version": "1.1",
-      "category": "resolve",
+      "category": "premiere",
+      "description": "Audio effect presets for Premiere Pro.",
+      "files": [],
+      "id": "podcast-audio-chain",
       "installType": "auto",
-      "presetType": "fairlight",
+      "name": "Premiere Pro Audio Presets",
+      "path": "bundles/podcast-audio-chain",
+      "presetType": "effect",
+      "version": "1.2"
+    },
+    {
+      "category": "premiere",
+      "description": "Motion graphics templates (.mogrt) for Premiere Pro.",
+      "files": [],
+      "id": "social-media-templates",
+      "installType": "auto",
+      "name": "Premiere Pro Motion Graphics Templates",
+      "path": "bundles/social-media-templates",
+      "presetType": "mogrt",
+      "version": "1.1"
+    },
+    {
+      "category": "resolve",
+      "description": "Color grading LUTs for DaVinci Resolve.",
+      "files": [],
+      "id": "resolve-cinematic-luts",
+      "installType": "auto",
+      "name": "DaVinci Resolve LUTs",
+      "path": "bundles/resolve-cinematic-luts",
+      "presetType": "lut",
+      "version": "1.1"
+    },
+    {
+      "category": "resolve",
+      "description": "PowerGrades for DaVinci Resolve. Requires manual import via the Color page Gallery.",
+      "files": [],
+      "id": "signature-powergrades",
+      "importInstructions": "Open Resolve, go to the Color page, open the Gallery panel, right-click in the PowerGrades album, and choose Import. Select all files in the synced folder.",
+      "installType": "manual",
+      "name": "DaVinci Resolve PowerGrades",
+      "path": "bundles/signature-powergrades",
+      "presetType": "powergrade",
+      "version": "1.1"
+    },
+    {
+      "category": "resolve",
+      "description": "Audio processing presets for the Fairlight page in DaVinci Resolve.",
+      "files": [],
+      "id": "fairlight-voice-presets",
+      "installType": "auto",
+      "name": "DaVinci Resolve Fairlight Presets",
       "path": "bundles/fairlight-voice-presets",
-      "files": []
+      "presetType": "fairlight",
+      "version": "1.1"
     }
-  ]
+  ],
+  "schemaVersion": 1,
+  "updatedAt": "2026-05-08T06:06:40.669961+00:00"
 }
