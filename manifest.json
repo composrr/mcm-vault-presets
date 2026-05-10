@@ -95,6 +95,40 @@
       "path": "bundles/fairlight-voice-presets",
       "presetType": "fairlight",
       "version": "1.1"
+    },
+    {
+      "category": "premiere",
+      "description": "Studio-standard panel layouts (Edit, Color, Audio rooms) for Premiere Pro.",
+      "files": [],
+      "id": "premiere-workspaces",
+      "installType": "auto",
+      "name": "Premiere Pro Workspaces",
+      "path": "bundles/premiere-workspaces",
+      "presetType": "workspace",
+      "version": "1.0"
+    },
+    {
+      "category": "premiere",
+      "description": "Studio-standard keyboard shortcuts for Premiere Pro. Files routed automatically to the matching Win or Mac profile folder.",
+      "files": [],
+      "id": "premiere-keyboard-shortcuts",
+      "installType": "auto",
+      "name": "Premiere Pro Keyboard Shortcuts",
+      "path": "bundles/premiere-keyboard-shortcuts",
+      "presetType": "keyboard",
+      "version": "1.0"
+    },
+    {
+      "category": "premiere",
+      "description": "Pre-built project templates (.prproj) for episodic and branded work. Open via File → Open Project in Premiere.",
+      "files": [],
+      "id": "premiere-project-templates",
+      "importInstructions": "Templates land in your MCM Vault Presets/Project Templates folder. In Premiere, choose File → Open Project and pick the .prproj you want.",
+      "installType": "manual",
+      "name": "Premiere Pro Project Templates",
+      "path": "bundles/premiere-project-templates",
+      "presetType": "project-template",
+      "version": "1.0"
     }
   ],
   "schemaVersion": 1,
