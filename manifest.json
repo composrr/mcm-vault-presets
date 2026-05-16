@@ -13,6 +13,17 @@
     },
     {
       "category": "premiere",
+      "description": "Caption Track Style presets for Premiere Pro. Install to Profile/Styles so they show up in the Captions panel's Track Style picker.",
+      "files": [],
+      "id": "premiere-caption-styles",
+      "installType": "auto",
+      "name": "Premiere Pro Caption Styles",
+      "path": "bundles/premiere-caption-styles",
+      "presetType": "caption",
+      "version": "1.0"
+    },
+    {
+      "category": "premiere",
       "description": "Export presets shared across the team.",
       "files": [
         "-WAV.epr",
@@ -132,5 +143,5 @@
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-05-08T06:07:40.594942+00:00"
+  "updatedAt": "2026-05-15T22:00:00.000000+00:00"
 }
