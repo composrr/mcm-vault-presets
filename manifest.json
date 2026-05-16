@@ -28,17 +28,22 @@
       "files": [
         "-WAV.epr",
         "4444444.epr",
+        "MSC - .wav - Audio Only.epr",
+        "MSC - 1080 - 16-9.epr",
         "MSC - 1080 HD.epr",
+        "MSC - 4k - 16-9.epr",
         "MSC - 4k - 16.9.epr",
+        "MSC - 4k - 2-1.epr",
         "MSC - 4k - 2.1.epr",
-        "MSC - Audio Only.epr"
+        "MSC - Audio Only.epr",
+        "PresetTree.xml"
       ],
       "id": "youtube-export-presets",
       "installType": "auto",
       "name": "Premiere Pro Export Presets",
       "path": "bundles/youtube-export-presets",
       "presetType": "export",
-      "version": "1.9"
+      "version": "1.10"
     },
     {
       "category": "premiere",
@@ -143,5 +148,5 @@
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-05-15T22:00:00.000000+00:00"
+  "updatedAt": "2026-05-16T02:37:56.323011600+00:00"
 }
