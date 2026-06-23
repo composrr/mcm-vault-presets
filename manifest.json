@@ -27,23 +27,15 @@
       "description": "Export presets shared across the team.",
       "files": [
         "-WAV.epr",
-        "4444444.epr",
-        "MSC - .wav - Audio Only.epr",
         "MSC - 1080 - 16-9.epr",
-        "MSC - 1080 HD.epr",
-        "MSC - 4k - 16-9.epr",
-        "MSC - 4k - 16.9.epr",
-        "MSC - 4k - 2-1.epr",
-        "MSC - 4k - 2.1.epr",
-        "MSC - Audio Only.epr",
-        "PresetTree.xml"
+        "MSC - 4k - 16-9.epr"
       ],
       "id": "youtube-export-presets",
       "installType": "auto",
       "name": "Premiere Pro Export Presets",
       "path": "bundles/youtube-export-presets",
       "presetType": "export",
-      "version": "1.10"
+      "version": "1.11"
     },
     {
       "category": "premiere",
@@ -1118,5 +1110,5 @@
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-06-23T07:04:40.754465+00:00"
+  "updatedAt": "2026-06-23T07:05:54.156196+00:00"
 }
