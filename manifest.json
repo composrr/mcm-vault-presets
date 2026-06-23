@@ -3,13 +3,15 @@
     {
       "category": "premiere",
       "description": "Custom sequence presets for Premiere Pro.",
-      "files": [],
+      "files": [
+        "1080 Wknd.sqpreset"
+      ],
       "id": "premiere-sequence-presets",
       "installType": "auto",
       "name": "Premiere Pro Sequence Presets",
       "path": "bundles/premiere-sequence-presets",
       "presetType": "sequence",
-      "version": "1.0"
+      "version": "1.1"
     },
     {
       "category": "premiere",
@@ -1083,5 +1085,5 @@
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-06-23T03:56:21.193336200+00:00"
+  "updatedAt": "2026-06-23T04:55:32.876723300+00:00"
 }
