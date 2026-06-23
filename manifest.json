@@ -35,7 +35,7 @@
       "name": "Premiere Pro Export Presets",
       "path": "bundles/youtube-export-presets",
       "presetType": "export",
-      "version": "1.11"
+      "version": "1.12"
     },
     {
       "category": "premiere",
@@ -1110,5 +1110,5 @@
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-06-23T07:05:54.156196+00:00"
+  "updatedAt": "2026-06-23T07:07:15.448728+00:00"
 }
