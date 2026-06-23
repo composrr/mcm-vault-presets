@@ -74,6 +74,11 @@
       "category": "resolve",
       "description": "Color grading LUTs for DaVinci Resolve.",
       "files": [
+        "Gamut/606/606 - Avondale.cube",
+        "Gamut/606/606 - Belmont.cube",
+        "Gamut/606/606 - Montrose.cube",
+        "Gamut/606/606 - North Park.cube",
+        "Gamut/606/606 - Ravenswood.cube",
         "Gamut/Adagio/Adagio 01.cube",
         "Gamut/Adagio/Adagio 02.cube",
         "Gamut/Adagio/Adagio 03.cube",
@@ -1049,7 +1054,7 @@
       "name": "DaVinci Resolve LUTs",
       "path": "bundles/resolve-cinematic-luts",
       "presetType": "lut",
-      "version": "1.6"
+      "version": "1.7"
     },
     {
       "category": "resolve",
@@ -1110,5 +1115,5 @@
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-06-23T07:07:15.448728+00:00"
+  "updatedAt": "2026-06-23T12:44:10.381374600+00:00"
 }
