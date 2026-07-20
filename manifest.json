@@ -1975,14 +1975,22 @@
     {
       "category": "resolve",
       "description": "PowerGrades for DaVinci Resolve. Requires manual import via the Color page Gallery.",
-      "files": [],
+      "fileDates": {
+        "test_1.1.1.dpx": "2026-07-20T04:48:42.683325+00:00",
+        "test_1.1.1.drx": "2026-07-20T04:48:42.683325+00:00"
+      },
+      "files": [
+        "test_1.1.1.dpx",
+        "test_1.1.1.drx"
+      ],
       "id": "signature-powergrades",
       "importInstructions": "Open Resolve, go to the Color page, open the Gallery panel, right-click in the PowerGrades album, and choose Import. Select all files in the synced folder.",
       "installType": "manual",
       "name": "DaVinci Resolve PowerGrades",
       "path": "bundles/signature-powergrades",
       "presetType": "powergrade",
-      "version": "1.1"
+      "updatedAt": "2026-07-20T04:48:42.683325+00:00",
+      "version": "1.2"
     },
     {
       "category": "resolve",
@@ -2031,5 +2039,5 @@
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-07-16T21:21:45.137147+00:00"
+  "updatedAt": "2026-07-20T04:48:42.683340+00:00"
 }
