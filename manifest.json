@@ -26,25 +26,30 @@
       "category": "premiere",
       "description": "Export presets shared across the team.",
       "fileDates": {
-        "-WAV.epr": "2026-05-07T07:28:51-05:00",
-        "MSC - .wav - Audio Only.epr": "2026-06-23T12:56:24-05:00",
-        "MSC - 1080 - 16-9.epr": "2026-05-15T21:37:56-05:00",
-        "MSC - 4k - 16-9.epr": "2026-05-15T21:37:56-05:00",
-        "MSC - 4k - 2-1.epr": "2026-06-23T12:56:24-05:00"
+        "-WAV.epr": "2026-08-19T21:07:34.707464+00:00",
+        "MSC - .wav - Audio Only.epr": "2026-08-19T21:07:34.707464+00:00",
+        "MSC - 1080 - 16-9.epr": "2026-08-19T21:07:34.707464+00:00",
+        "MSC - 4k - 16-9.epr": "2026-08-19T21:07:34.707464+00:00",
+        "MSC - 4k - 2-1.epr": "2026-08-19T21:07:34.707464+00:00",
+        "MSC Social | Feed.epr": "2026-08-19T21:07:34.707464+00:00",
+        "MSC Social | Reel.epr": "2026-08-19T21:07:34.707464+00:00"
       },
       "files": [
         "-WAV.epr",
         "MSC - .wav - Audio Only.epr",
         "MSC - 1080 - 16-9.epr",
         "MSC - 4k - 16-9.epr",
-        "MSC - 4k - 2-1.epr"
+        "MSC - 4k - 2-1.epr",
+        "MSC Social | Feed.epr",
+        "MSC Social | Reel.epr"
       ],
       "id": "youtube-export-presets",
       "installType": "auto",
       "name": "Premiere Pro Export Presets",
       "path": "bundles/youtube-export-presets",
       "presetType": "export",
-      "version": "1.13"
+      "updatedAt": "2026-08-19T21:07:34.707464+00:00",
+      "version": "1.14"
     },
     {
       "category": "premiere",
@@ -2039,5 +2044,5 @@
     }
   ],
   "schemaVersion": 1,
-  "updatedAt": "2026-07-20T04:48:42.683340+00:00"
+  "updatedAt": "2026-08-19T21:07:34.707479+00:00"
 }
