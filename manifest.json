@@ -4,20 +4,20 @@
       "category": "premiere",
       "description": "Custom sequence presets for Premiere Pro.",
       "fileDates": {
-        "MSC Social/MSC Social | 24fps.sqpreset": "2026-08-19T21:08:09.027323+00:00",
-        "MSC Social/MSC Social | 30fps.sqpreset": "2026-08-19T21:08:09.027323+00:00",
-        "MSC Social/MSC Social | 60fps.sqpreset": "2026-08-19T21:08:09.027323+00:00",
-        "MSC Social/MSC Social | Feed 24fps.sqpreset": "2026-08-19T21:08:09.027323+00:00",
-        "MSC Social/MSC Social | Feed 30fps.sqpreset": "2026-08-19T21:08:09.027323+00:00",
-        "MSC Social/MSC Social | Feed 60fps.sqpreset": "2026-08-19T21:08:09.027323+00:00"
+        "MSC Social/MSC Social - 24fps.sqpreset": "2026-08-19T21:08:09.027323+00:00",
+        "MSC Social/MSC Social - 30fps.sqpreset": "2026-08-19T21:08:09.027323+00:00",
+        "MSC Social/MSC Social - 60fps.sqpreset": "2026-08-19T21:08:09.027323+00:00",
+        "MSC Social/MSC Social - Feed 24fps.sqpreset": "2026-08-19T21:08:09.027323+00:00",
+        "MSC Social/MSC Social - Feed 30fps.sqpreset": "2026-08-19T21:08:09.027323+00:00",
+        "MSC Social/MSC Social - Feed 60fps.sqpreset": "2026-08-19T21:08:09.027323+00:00"
       },
       "files": [
-        "MSC Social/MSC Social | 24fps.sqpreset",
-        "MSC Social/MSC Social | 30fps.sqpreset",
-        "MSC Social/MSC Social | 60fps.sqpreset",
-        "MSC Social/MSC Social | Feed 24fps.sqpreset",
-        "MSC Social/MSC Social | Feed 30fps.sqpreset",
-        "MSC Social/MSC Social | Feed 60fps.sqpreset"
+        "MSC Social/MSC Social - 24fps.sqpreset",
+        "MSC Social/MSC Social - 30fps.sqpreset",
+        "MSC Social/MSC Social - 60fps.sqpreset",
+        "MSC Social/MSC Social - Feed 24fps.sqpreset",
+        "MSC Social/MSC Social - Feed 30fps.sqpreset",
+        "MSC Social/MSC Social - Feed 60fps.sqpreset"
       ],
       "id": "premiere-sequence-presets",
       "installType": "auto",
@@ -25,7 +25,7 @@
       "path": "bundles/premiere-sequence-presets",
       "presetType": "sequence",
       "updatedAt": "2026-08-19T21:08:09.027323+00:00",
-      "version": "1.1"
+      "version": "1.2"
     },
     {
       "category": "premiere",
@@ -47,8 +47,8 @@
         "MSC - 1080 - 16-9.epr": "2026-08-19T21:07:34.707464+00:00",
         "MSC - 4k - 16-9.epr": "2026-08-19T21:07:34.707464+00:00",
         "MSC - 4k - 2-1.epr": "2026-08-19T21:07:34.707464+00:00",
-        "MSC Social | Feed.epr": "2026-08-19T21:07:34.707464+00:00",
-        "MSC Social | Reel.epr": "2026-08-19T21:07:34.707464+00:00"
+        "MSC Social - Feed.epr": "2026-08-19T21:07:34.707464+00:00",
+        "MSC Social - Reel.epr": "2026-08-19T21:07:34.707464+00:00"
       },
       "files": [
         "-WAV.epr",
@@ -56,8 +56,8 @@
         "MSC - 1080 - 16-9.epr",
         "MSC - 4k - 16-9.epr",
         "MSC - 4k - 2-1.epr",
-        "MSC Social | Feed.epr",
-        "MSC Social | Reel.epr"
+        "MSC Social - Feed.epr",
+        "MSC Social - Reel.epr"
       ],
       "id": "youtube-export-presets",
       "installType": "auto",
@@ -65,7 +65,7 @@
       "path": "bundles/youtube-export-presets",
       "presetType": "export",
       "updatedAt": "2026-08-19T21:07:34.707464+00:00",
-      "version": "1.14"
+      "version": "1.15"
     },
     {
       "category": "premiere",
@@ -2048,10 +2048,10 @@
     },
     {
       "category": "premiere",
-      "description": "Pre-built project templates (.prproj) for episodic and branded work. Open via File → Open Project in Premiere.",
+      "description": "Pre-built project templates (.prproj) for episodic and branded work. Open via File â†’ Open Project in Premiere.",
       "files": [],
       "id": "premiere-project-templates",
-      "importInstructions": "Templates land in your MCM Vault Presets/Project Templates folder. In Premiere, choose File → Open Project and pick the .prproj you want.",
+      "importInstructions": "Templates land in your MCM Vault Presets/Project Templates folder. In Premiere, choose File â†’ Open Project and pick the .prproj you want.",
       "installType": "manual",
       "name": "Premiere Pro Project Templates",
       "path": "bundles/premiere-project-templates",
